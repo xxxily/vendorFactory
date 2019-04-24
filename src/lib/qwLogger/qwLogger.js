@@ -7,8 +7,8 @@
  * @github       https://github.com/xxxily
  */
 
-import { merge } from './lib/utils'
-import parseURL from './lib/utils/url'
+import { merge } from '../utils'
+import parseURL from '../utils/url'
 import Logger from './logger'
 
 class QwLogger extends Logger {

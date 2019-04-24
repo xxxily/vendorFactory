@@ -1,7 +1,7 @@
 {
-  "name": "qwLogger",
+  "name": "vendorFactory",
   "version": "0.0.1",
-  "description": "qw logger sdk",
+  "description": "Universal script packaging framework",
   "author": "blaze",
   "private": true,
   "scripts": {
@@ -10,8 +10,10 @@
     "test:unit": "karma start ./config/karma.unit.config.js",
     "pack": "node ./bin/pack.js",
     "rollup": "rollup -w -c config/rollup.config.js",
-    "rollup:dev": "npm run rollup --pack-dev",
-    "rollup:prod": "npm run rollup --pack-prod"
+    "utils:dev": "npm run rollup --mode-dev --proj-utils",
+    "utils:prod": "npm run rollup --mode-prod --proj-utils",
+    "qwLogger:dev": "npm run rollup --mode-dev --proj-qwLogger",
+    "qwLogger:prod": "npm run rollup --mode-prod --proj-qwLogger"
   },
   "dependencies": {},
   "devDependencies": {

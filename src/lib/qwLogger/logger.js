@@ -7,10 +7,10 @@
  * @github       https://github.com/xxxily
  */
 
-import { version } from '../package.json'
-import TinyDB from './lib/tinydb/index'
-import { isObj, random, merge } from './lib/utils'
-import ajax from './lib/ajax/ajax'
+import { version } from '../../../package.json'
+import TinyDB from '../tinydb/index'
+import { isObj, random, merge } from '../utils'
+import ajax from '../ajax/ajax'
 
 class Logger {
   constructor (setting) {
